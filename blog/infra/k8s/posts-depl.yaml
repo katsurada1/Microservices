@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: posts
-          image: 1kazuki11/posts-76
+          image: 1kazuki11/posts
 ---
 apiVersion: v1
 kind: Service
