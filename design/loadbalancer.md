@@ -5,9 +5,14 @@ There are two main possible methods of communication between the kubernetes clus
 ## Method 1
 
 Open a specific port (NodePort) of each pod and allow external access to the pod through that port.
-<img width="871" alt="image" src="https://github.com/katsurada1/Microservices/assets/91961057/2aafe6e4-ce04-4e0a-8b22-e9a00a8b4169">
+<p align="center">
+  <img width="871" alt="image" src="https://github.com/katsurada1/Microservices/assets/91961057/2aafe6e4-ce04-4e0a-8b22-e9a00a8b4169">
+</p>
 
 ## Method2
 An external loadbalancer receives the traffic and distributes it to the appropriate pod in the kubernetes cluster, identified by Cluster IP.
-![Uploading image.png…]()
+<p align="center">
+  <img width="959" alt="image" src="https://github.com/katsurada1/Microservices/assets/91961057/fa217633-f3ff-49bc-9e2a-fb7c678f2f83">
+</p>
+
 
